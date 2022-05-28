@@ -247,7 +247,6 @@ Resources:
             # ToDo: AMI ID of Ubuntu 18.04. for region us-east-1. 
             ImageId: ami-0184e674549ab8432
             # ToDo: Change the key-pair name, as applicable to you. 
-            KeyName: VocareumKey2
             SecurityGroups:
             - Ref: WebServerSecGroup
             InstanceType: t3.medium
